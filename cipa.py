@@ -32,3 +32,6 @@ text3 = input("text ketiga: ")
 print("aku hidup dengan", text1)
 print("aku jalan dengan", text2)
 print("aku benci dengan", text3)
+
+
+# mantab 100/100

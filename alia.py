@@ -33,3 +33,5 @@ nama3 = input('nama3: ')
 print('aku hidup dengan', nama)
 print('aku benci dengan', nama2)
 print('aku jalan dengan', nama3)
+
+# walau input yang diminta salah tapi okelah 90 / 100
