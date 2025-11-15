@@ -140,11 +140,9 @@
 #
 # String sangat penting dalam pengolahan teks.
 
-status_input = True
-if status_input == "ya":
-    status = True
-else:
-    status = False
+# text = "nama saya Zidan dan Umur saya Itu 19"
+# diubah = text.replace("u","O")
+# print(diubah)
 
 
 # =====================================================================
@@ -159,6 +157,11 @@ else:
 #
 # List adalah struktur data yang sering digunakan.
 
+# kumpulan_angka = [5,4,6,8,7,2,2]
+# kumpulan_angka_lain = [4,2,3,6,1,37,8,923]
+# # kumpulan_angka[0] = 2
+
+# print(kumpulan_angka)
 
 # =====================================================================
 #  TUPLE
@@ -172,6 +175,10 @@ else:
 #
 # Tuple digunakan untuk data yang tidak boleh berubah.
 
+# kumpulan_angka = (5,4,6,8,7,2,2)
+# kumpulan_angka_lain = (4,2,3,6,1,37,8,923)
+# tuple_baru = kumpulan_angka + kumpulan_angka_lain
+# print(tuple_baru)
 
 # =====================================================================
 #  SET
@@ -187,6 +194,11 @@ else:
 #
 # Set sangat berguna untuk operasi matematika himpunan.
 
+# kumpulan_angka = {5,4,6,8,7,2,2,9}
+# kumpulan_angka_lain = {4,2,3,6,1,37,8,923}
+
+# print(kumpulan_angka.union(kumpulan_angka_lain))
+
 
 # =====================================================================
 #  DICTIONARY
@@ -201,6 +213,18 @@ else:
 #
 # Dictionary adalah struktur data paling penting di Python.
 
+biodata = {
+    "nama" : "Zidan",
+    "umur" : "19"
+}
+biodata["alamat"] = "gelatik"
+# umur = biodata.pop("umur")
+
+# print(biodata)
+# print(umur)
+
+# for key,value in biodata.items():
+#     print(f"{key} : {value}")
 
 # =====================================================================
 #  FUNCTION
@@ -215,3 +239,17 @@ else:
 # - Loop dalam fungsi
 #
 # Function membantu program lebih rapi dan terstruktur.
+
+
+
+def login(username,password):
+    if username == "admin" and password == "admin123":
+        return "Login Berhasil"
+    else:
+        return "login gagal"
+
+username = input("Username : ")
+password = input("Password : ")
+
+pesan = login(username,password)
+print(pesan)
