@@ -48,11 +48,12 @@ try:
     else:
         akstif = False
     print('===== OUTPUT ====')
+    # ada metode menulis string yang lebih baik sebenarnya nanti ditunjukkin
     print('username : ', nama ,'| umur : ', umur)
     print('ipk : ', ipk, ', Status : ', akstif)
     print('mahasiswa', nama, 'berstatus aktif: ', akstif)
 except ValueError:
     print('input harus angka')
-    exit
 
+# bagus aja cuman ngak perlu exit karena program udah berakhir kalo udah di bawah begini
 

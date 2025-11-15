@@ -140,7 +140,11 @@
 #
 # String sangat penting dalam pengolahan teks.
 
-
+status_input = True
+if status_input == "ya":
+    status = True
+else:
+    status = False
 
 
 # =====================================================================
